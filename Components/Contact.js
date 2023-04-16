@@ -40,25 +40,6 @@ const Contact = ({ currentTheme }) => {
       duration: 5000,
       isClosable: true,
     });
-
-    fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      console.log("Response received");
-      if (res.status === 200) {
-        console.log("Response succeeded!");
-        setSubmitted(true);
-        setName("");
-        setEmail("");
-        setPhone("");
-        setMessage("");
-      }
-    });
   };
 
   return (
