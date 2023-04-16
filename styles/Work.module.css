@@ -1,12 +1,12 @@
 .workHeading{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Hanna', serif;
     text-align: center;
     font-size:50px;
     padding: 2rem;
 }
 
 .blogHeading{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Hanna', serif;
     text-align: center;
     font-size:50px;
     padding: 1rem;
@@ -152,7 +152,7 @@
 
   .experienceCardContent h1{
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .experienceCardContent h2{

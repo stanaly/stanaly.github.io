@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap');
 
+@import url('//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css');
+
+@import url('//fonts.googleapis.com/earlyaccess/hanna.css');
+
 html,
 body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Hanna, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
 }
 
 a {
