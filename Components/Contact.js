@@ -12,7 +12,6 @@ const Contact = ({ currentTheme }) => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
 
   const iconStyles = {
     backgroundColor: currentTheme.tertiary,
@@ -22,13 +21,6 @@ const Contact = ({ currentTheme }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Sending");
-    let data = {
-      name: name,
-      email: email,
-      phone: phone,
-      message: message,
-    };
     setName("");
     setEmail("");
     setPhone("");
